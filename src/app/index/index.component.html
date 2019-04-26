@@ -1,45 +1,62 @@
-<div class="row" style="margin-right: 120px">
-  <h1 style="text-align: center" class="col-md-12"> Dados do seu computador: </h1>
-  <br>
-  <br>
-  <div class="col-md-1"></div>
-  <div class="col-md-5" style="border: 1px black">
-    <canvas id="myChart"></canvas>
-    <button>Baixar relatório</button>
+<div class="container">
+  <h1 style="text-align: center; margin-bottom: 40px" class="col-md-12"> Dados do seu computador: </h1>
+
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Uso atual de CPU</h5>
+          <p class="card-text">18%</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Uso atual de Ram</h5>
+          <p class="card-text">22%</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Uso atual de Internet</h5>
+          <p class="card-text">268Kbp/s</p>
+        </div>
+      </div>
+    </div>
   </div>
 
-  <div class="col-md-1"></div>
+  <div class="row">
 
-  <div class="col-md-5">
-    <canvas id="myChart2"></canvas>
-    <button>Baixar relatório</button>
+    <div class="col-md-2"></div>
+    <div class="col-md-8" style="margin-bottom: 40px">
+      <h6 style="text-align: center">Intel foda</h6>
+      <canvas id="myChart" width="200"></canvas>
+    </div>
+    <div class="col-md-2"></div>
   </div>
 
+  <div class="row">
 
-  <div class="col-md-1"></div>
-  <div class="col-md-5">
-    <canvas id="myChart3"></canvas>
-    <button>Baixar relatório</button>
+    <div class="col-md-6" style="margin-bottom: 40px">
+      <h6 style="text-align: center">Uso de processamento (%)</h6>
+      <canvas id="myChart2"></canvas>
+    </div>
+
+    <div class="col-md-6" style="margin-bottom: 40px">
+      <canvas id="myChart3"></canvas>
+    </div>
+
   </div>
 
-  <div class="col-md-1"></div>
+  <div class="row">
 
-  <div class="col-md-5">
-    <canvas id="myChart4"></canvas>
-    <button>Baixar relatório</button>
-  </div>
-
-
-  <div class="col-md-1"></div>
-  <div class="col-md-5">
-    <canvas id="myChart5"></canvas>
-    <button>Baixar relatório</button>
-  </div>
-
-  <div class="col-md-1"></div>
-
-  <div class="col-md-5">
-    <canvas id="myChart6"></canvas>
-    <button>Baixar relatório</button>
+    <div class="col-md-12" style="margin-bottom: 40px">
+      <canvas id="myChart4"></canvas>
+    </div>
   </div>
 </div>
