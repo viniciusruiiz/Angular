@@ -1,0 +1,17 @@
+.statusactive:before {
+  content: ' \25CF';
+  text-align: center;
+  font-size: 25px;
+  color: green;
+}
+
+.statusdesactive:before {
+  content: ' \25CF';
+  margin-bottom:20000px;
+  font-size: 25px;
+  color: red;
+}
+
+a {
+    text-align: center;
+}

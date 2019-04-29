@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import * as Chart from 'chart.js';
 
 @Component({
-  selector: 'app-index',
-  templateUrl: './index.component.html',
-  styleUrls: ['./index.component.scss']
+  selector: 'app-api',
+  templateUrl: './api.component.html',
+  styleUrls: ['./api.component.scss']
 })
-export class IndexComponent implements OnInit {
+export class ApiComponent implements OnInit {
 
   constructor() { }
 
