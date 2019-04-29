@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import { Apis } from '../../mock/api-mock'
+
 @Component({
   selector: 'app-api-list',
   templateUrl: './api-list.component.html',
@@ -11,5 +13,7 @@ export class ApiListComponent implements OnInit {
 
   ngOnInit() {
   }
+
+  apis = Apis;
 
 }

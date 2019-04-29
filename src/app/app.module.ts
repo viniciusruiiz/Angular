@@ -1,29 +1,27 @@
-import { ApiListComponent } from './api-list/api-list.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { IndexComponent } from './index/index.component';
-import { ProfileComponent } from './profile/profile.component';
-import { ApiComponent } from './api/api.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { ApiDetailComponent } from './api/api-detail/api-detail.component';
+import { ApiModule } from './api/api.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent,
-    IndexComponent,
-    ApiListComponent,
-    ProfileComponent,
-    ApiComponent
+    SidebarComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule.forRoot(),
+    ApiModule
   ],
-  providers: [
-  ],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

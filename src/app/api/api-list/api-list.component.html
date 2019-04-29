@@ -1,0 +1,28 @@
+<h1>
+  Lista de API's</h1>
+
+<table class="table table-stripped">
+  <thead>
+    <th scope="col">#</th>
+    <th scope="col">API</th>
+    <th scope="col">Tipo</th>
+    <th scope="col">Status</th>
+  </thead>
+
+  <tbody *ngFor="let api of apis">
+    <th>{{api.id}}</th>
+    <th>{{api.name}}</th>
+    <th>
+      <span *ngIf="api.type == 1">Aberta</span>
+      <span *ngIf="api.type == 2">Local</span>
+    </th>
+    <th>
+      <div style="  height: 25px;
+      width: 25px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;" [ngClass]="{ 'bg-success':api.status, 'bg-danger':!api.status }">
+      </div>
+    </th>
+  </tbody>
+</table>
