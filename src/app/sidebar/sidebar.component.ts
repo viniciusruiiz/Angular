@@ -7,7 +7,8 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class SidebarComponent implements OnInit {
 
-  usuario = "José da Silva"
+  usuario = "Ruiz"
+  empresa = "Stefanini"
 
   constructor() { }
 

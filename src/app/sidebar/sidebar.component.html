@@ -1,17 +1,25 @@
 
     <!-- Sidebar -->
-    <div class="bg-light border-right" id="sidebar-wrapper" [ngbCollapse]="isToggled">
+    <div class="bg-primary border-right" id="sidebar-wrapper">
       <div class="sidebar-heading">
         <div class="navbar-text">
-          <img src="assets/img/icone.png" class="img">
-          <br>
-          Bem vindo, {{ usuario }} 
+          <img src="assets/img/rikka.jpg" class="img" style="margin-left: 39px;">
+          
+        <!-- <span>{{ usuario }}</span> -->
+          
         </div>    
       </div>
       <div class="list-group list-group-flush">
-        <a href="#" class="list-group-item list-group-item-action bg-light">Geral</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Gerenciamento de API's</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Gerenciamento de Funcionarios</a>
+        <ul class="list"></ul>
+        <li class="list-group-item bg-primary">
+          <a href="#" style="color: black" >Geral</a>
+        </li>
+        <li class="list-group-item bg-primary">
+          <a href="#" style="color: black">Gerenciamento de API's</a>
+        </li>
+        <li class="list-group-item bg-primary">
+          <a href="#" style="color: black">Gerenciamento de Funcionarios</a>
+        </li>
       </div>
     </div>
     <!-- /#sidebar-wrapper -->
