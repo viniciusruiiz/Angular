@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'projeto-scss';
+  title = 'Dashboard - JScan';
   funcionario = "Juquinha";
   nomePC = "PC do Juquinha";
   processador = "Intel Core i7 7700"

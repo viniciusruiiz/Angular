@@ -3,8 +3,18 @@
 body {
     overflow-x: hidden;
   }
+
+  .container { 
+    overflow: hidden; 
+  } 
+  
+  #sticky-sidebar {
+
+    }
   
   #sidebar-wrapper {
+    position: fixed;
+    // max-width: 20%;
     min-height: 100vh;
     margin-left: -15rem;
     -webkit-transition: margin .25s ease-out;
@@ -36,7 +46,7 @@ body {
     }
 
     .aparecer{
-      display: none;
+      display: block;
     }
     
     #page-content-wrapper {
